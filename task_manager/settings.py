@@ -41,7 +41,7 @@ ALLOWED_HOSTS = [
     "127.0.0.1",
     "localhost",
     "webserver",
-    "python-project-52-w5q1.onrender.com",
+    "python-project-52-5vzw.onrender.com",
 ]
 
 AUTH_USER_MODEL = "users.User"

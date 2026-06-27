@@ -8,7 +8,7 @@ It supports users, task statuses, labels, and task assignment, with basic access
 
 ## Deploy
 
-[Click me🥵](https://python-project-52-w5q1.onrender.com)
+[Task Manager🥵](https://python-project-52-5vzw.onrender.com)
 
 
 ## Features
