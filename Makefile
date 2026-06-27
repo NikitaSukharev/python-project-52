@@ -22,6 +22,10 @@ collectstatic:
 build:
 	./build.sh
 
+.PHONY: render-start
+render-start:
+	gunicorn task_manager.wsgi
+
 test-coverage:
 	coverage run --source='.' manage.py test
 	coverage xml -o coverage.xml

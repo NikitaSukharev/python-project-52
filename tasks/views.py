@@ -8,7 +8,6 @@ from django.views.generic import (
     CreateView,
     DeleteView,
     DetailView,
-    ListView,
     UpdateView,
 )
 from django_filters.views import FilterView
@@ -39,7 +38,7 @@ _ROUTES = {
 }
 
 
-class TaskIndexView(LoginRequiredMixin, FilterView, ListView):
+class TaskIndexView(LoginRequiredMixin, FilterView):
     model = Task
     filterset_class = TaskFilter
     template_name = os.path.join("tasks", "index.html")

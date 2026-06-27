@@ -152,7 +152,6 @@ LOGIN_REQUIRED_MESSAGE = "Вы не авторизованы! Пожалуйст
 STATIC_URL = "/static/"
 STATIC_ROOT = BASE_DIR / "staticfiles"
 
-ROLLBAR_ACCESS_TOKEN = os.getenv("ROLLBAR_ACCESS_TOKEN")
 ROLLBAR_ENVIRONMENT = os.getenv("ROLLBAR_ENVIRONMENT", "development")
 
 ROLLBAR = {

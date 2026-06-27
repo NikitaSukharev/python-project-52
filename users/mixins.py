@@ -29,10 +29,7 @@ class ProtectDeleteMixin:
 
 
 class CheckChangePermissionMixin(UserPassesTestMixin):
-    change_another_user_message = (
-        "У вас нет прав для "
-        "изменения другого пользователя."
-    )
+    change_another_user_message = "У вас нет прав для изменения."
 
     def test_func(self):
         return self.get_object().id == self.request.user.id
