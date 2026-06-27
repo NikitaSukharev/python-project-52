@@ -1,3 +1,7 @@
+[![Actions Status](https://github.com/NikitaSukharev/python-project-52/workflows/hexlet-check/badge.svg)](https://github.com/NikitaSukharev/python-project-52/actions)
+[![Build Status](https://github.com/NikitaSukharev/python-project-52/workflows/Build/badge.svg)](https://github.com/NikitaSukharev/python-project-52/actions)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Cur1yB_python-project-52&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Cur1yB_python-project-52)
+
 ## Description
 Task Manager is a Django-based web application for managing tasks.
 It supports users, task statuses, labels, and task assignment, with basic access rules and deletion protections.
