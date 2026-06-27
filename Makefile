@@ -24,7 +24,7 @@ build:
 
 .PHONY: render-start
 render-start:
-	gunicorn task_manager.wsgi --bind 0.0.0.0:$PORT
+	gunicorn task_manager.wsgi --bind 0.0.0.0:$$PORT
 
 test-coverage:
 	coverage run --source='.' manage.py test
