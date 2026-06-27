@@ -11,17 +11,6 @@
           href="https://getbootstrap.com/docs/4.5/examples/starter-template/">
     <link rel="shortcut icon" href="#" />
 
-    <style>
-        body {
-            padding-top: 5rem;
-        }
-
-        .starter-template {
-            padding: 3rem 1.5rem;
-            text-align: center;
-        }
-    </style>
-
     {% load bootstrap4 %}
     {% bootstrap_css %}
     {% bootstrap_javascript jquery='full' %}
@@ -29,7 +18,7 @@
 
 </head>
 
-<body>
+<body class="pt-5">
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
     <a class="navbar-brand" href="{% url 'home' %}">Менеджер задач</a>
 
